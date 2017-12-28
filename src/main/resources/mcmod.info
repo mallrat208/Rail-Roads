@@ -1,9 +1,13 @@
 [
 {
+  "modid": "railroads",
+  "name": "Rail Roads",
+  "description": "Ride the Rails. With your feet!",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
+  "authorList": ["mallrat208"],
   "credits": "The Forge and FML guys, for making this example",
   "logoFile": "",
   "screenshots": [],

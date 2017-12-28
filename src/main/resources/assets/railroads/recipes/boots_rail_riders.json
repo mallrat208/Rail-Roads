@@ -1,0 +1,6 @@
+{
+  "type": "railroads:boots_rail_riders",
+  "railItem": {
+    "item": "minecraft:minecart"
+  }
+}

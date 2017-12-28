@@ -1,0 +1,5 @@
+{
+  "recipes": {
+    "boots_rail_riders": "com.mr208.railroads.common.recipes.RecipeBootRailRiders$Factory"
+  }
+}

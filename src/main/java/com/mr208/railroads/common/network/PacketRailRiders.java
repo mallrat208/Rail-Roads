@@ -109,14 +109,24 @@ public class PacketRailRiders implements IMessage
 	{
 		if(BlockRailBase.isRailBlock(worldIn, posIn))
 			return posIn;
+		if(BlockRailBase.isRailBlock(worldIn, posIn.down()))
+			return posIn.down();
 		if(BlockRailBase.isRailBlock(worldIn, posIn.north()))
 			return posIn.north();
+		if(BlockRailBase.isRailBlock(worldIn, posIn.north().down()))
+			return posIn.north().down();
 		if(BlockRailBase.isRailBlock(worldIn, posIn.west()))
 			return posIn.west();
+		if(BlockRailBase.isRailBlock(worldIn, posIn.west().down()))
+			return posIn.west().down();
 		if(BlockRailBase.isRailBlock(worldIn, posIn.east()))
 			return posIn.east();
-		if(BlockRailBase.isRailBlock(worldIn, posIn.south()))
-			return posIn.south();
+		if(BlockRailBase.isRailBlock(worldIn, posIn.east().down()))
+			return posIn.east().down();
+		if(BlockRailBase.isRailBlock(worldIn, posIn.south().down()))
+			return posIn.south().down();
+		if(BlockRailBase.isRailBlock(worldIn, posIn.south().down()))
+			return posIn.south().down();
 
 		return null;
 	}

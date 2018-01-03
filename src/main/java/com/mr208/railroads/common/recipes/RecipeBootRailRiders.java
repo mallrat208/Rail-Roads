@@ -2,6 +2,7 @@ package com.mr208.railroads.common.recipes;
 
 import com.google.gson.JsonObject;
 import com.mr208.railroads.RailRoads;
+import com.mr208.railroads.common.RRContent;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.inventory.InventoryCrafting;

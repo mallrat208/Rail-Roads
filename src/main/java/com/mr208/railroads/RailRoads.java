@@ -24,7 +24,7 @@ public class RailRoads
 {
 	public static final String MOD_ID = "railroads";
 	public static final String MOD_NAME = "Rail Roads";
-	public static final String MOD_VERS = "1.1.0";
+	public static final String MOD_VERS = "1.1.1";
 
 	public static final String RAIL_RIDER_TAG = "RailRiders";
 

@@ -3,10 +3,15 @@ package com.mr208.railroads.common.entity;
 import net.minecraft.block.BlockRailBase;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.item.EntityMinecartEmpty;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public class EntityRailRiders extends EntityMinecartEmpty
 {
@@ -62,7 +67,14 @@ public class EntityRailRiders extends EntityMinecartEmpty
 		super.fall(distance, damageMultiplier);
 		this.removePassengers();
 	}
-
+	
+	@Nullable
+	@Override
+	public EntityItem entityDropItem(ItemStack stack, float offsetY)
+	{
+		return null;
+	}
+	
 	@Override
 	public boolean shouldRiderSit()
 	{
